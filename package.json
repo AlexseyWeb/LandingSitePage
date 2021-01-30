@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/AlexseyWeb/LandingSitePage/issues"
   },
-  "homepage": "https://github.com/AlexseyWeb/LandingSitePage#readme"
+  "homepage": "https://github.com/AlexseyWeb/LandingSitePage#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }

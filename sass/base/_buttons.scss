@@ -6,26 +6,25 @@
     line-height: 2.2rem;
     cursor:pointer;
     transition: all .3s;
-}
+    &_bordered{
+        background: $color-light;
+        border: 1px solid $color-border;
+        color: $color-text;
+        border-radius: 4px;
+        cursor: pointer;
+        &:hover{
+            background: $color-hovered;
+            border-color: $color-hovered;
+        }
 
-.button_bordered{
-    background: $color-light;
-    border: 1px solid $color-border;
-    color: $color-text;
-    border-radius: 4px;
-    cursor: pointer;
-}
-.button_colored{
+    }
+    &_colored{
     background: $color-primary;
     color: $color-light;
     border: 1px solid $color-border;
-}
-.button_colored:hover{
-    background: $color-additional;
-    border-color: $color-additional;
-}
-
-.button_bordered:hover{
-    background: $color-hovered;
-    border-color: $color-hovered;
+    &:hover{
+        background: $color-additional;
+        border-color: $color-additional;
+    }
+    }
 }
