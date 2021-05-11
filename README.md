@@ -1,3 +1,3 @@
 # LandingSitePage
-a simple langing page 
-https://alexseyweb.github.io/LandingSitePage/
+##Лендинг страница адаптированная 
+[live version ](https://alexseyweb.github.io/LandingSitePage/)
